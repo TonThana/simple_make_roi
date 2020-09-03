@@ -7,7 +7,11 @@ import overlayhelper
 #       (default at 0.001 * PT_MAX) - want to draw DL_L tif
 #   b0 - draw bounding box -> DL_L_bb.img/hdr
 
-# python main.py -p /data1/cl/Project_Panitha/DISEASED_CONVERTED_3/BENCHAPHON_NIAMSIN/DTI/LGN_L.pt/PT.img -f /data1/cl/Project_Panitha/DISEASED_CONVERTED_3/BENCHAPHON_NIAMSIN/DTI/filledBBox/ldl-l-fbb.img -t 0.001 -o dl-l
+# example ---
+# python main.py -p /data1/cl/Project_Panitha/DISEASED_CONVERTED_3/
+# BENCHAPHON_NIAMSIN/DTI/LGN_L.pt/PT.img -f /data1/cl/Project_Panitha/
+# DISEASED_CONVERTED_3/BENCHAPHON_NIAMSIN/DTI/filledBBox/ldl-l-fbb.img -t
+# 0.001 -o dl-l
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-p", "--probtractx", required=True, help="path to PT.img")
