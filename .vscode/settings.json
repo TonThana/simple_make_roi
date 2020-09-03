@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/ton/.virtualenvs/simple_make_roi/bin/python",
+    "python.pythonPath": "/home/image/.virtualenvs/simple_make_roi/bin/python",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true
